@@ -11,10 +11,6 @@ Jurusan : Teknik Informatika
 Kampus  : Universitas Islam Balitar
 
 
-## 🧕🏻 Author
-
-- [@Berlian](link github)
-
 
 ## 🚨 Penting!
 - Jika membuka dengan codepen : Sebagian gambar tidak akan muncul karena tersimpan pada penyimpanan lokal
@@ -22,6 +18,6 @@ Kampus  : Universitas Islam Balitar
 
 ## 🔗 Live Preview Tugas
 
-- Pertemuan 1 :https://codepen.io/collection/wapNdM
+- Pertemuan 1 :(https://codepen.io/collection/wapNdM)
 - Pertemuan 2&3 : (link collection codepen)
 - Pertemuan 4 :
