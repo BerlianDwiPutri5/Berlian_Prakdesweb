@@ -18,6 +18,6 @@ Kampus  : Universitas Islam Balitar
 
 ## 🔗 Live Preview Tugas
 
-- Pertemuan 1 :(https://codepen.io/collection/wapNdM)
+- Pertemuan 1 :https://codepen.io/collection/wapNdM
 - Pertemuan 2&3 : (link collection codepen)
 - Pertemuan 4 :
