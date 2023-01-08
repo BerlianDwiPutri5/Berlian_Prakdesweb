@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    /* desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+img {
+    width: 100%;
+    height: auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+/* Style the header */
+
+#header{
+    background-image:url(https://64.media.tumblr.com/d9401b2f7e3f16400c9b5d376ad74774/faa4eea8fc02e799-a1/s2048x3072/f84f3fea3a9faebeb2a959110509e3a9cc733a0a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1px;
+    border: none;
+    height:650px;
+}
+#header h1{
+    color:#00125b;
+    padding:40px 0px 0px 20px;
+    text-shadow:black;
+    float: left;
+    color: black;
+    font-family: tahoma;
+    font-size: 35px;
+    font-weight: 200;
+}
+#header img {
+    padding:40px 0px 0px 20px;
+    float: left;
+    object-fit: cover;
+}
+
+/* Buat 2 kolom/kotak yang mengambang diantara yang lainnya */
+
+#List {
+    width:100%;
+    float:left;
+    background-color: antiquewhite;
+}
+#judul_List{
+    padding:3px;
+    text-align:center;
+    font-weight:bold;
+    border-bottom:1px solid rgb(110, 7, 62);
+    /* background-image:url('header.jpg'); */
+    color: rgb(110, 7, 62);
+    border-radius:0px;
+}
+ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+#IsiArticel{
+    padding:0px;
+    width:100%;
+    float:left;
+    font-size:medium;
+    font-family: tahoma;
+    background-color:rgb(208, 195, 233);
+}
+
+#footer{
+    background-color: rgb(131, 43, 43);
+    text-align: center; 
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    font-family: tahoma;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1px;
+    border: none;
+    height: 50px;
+}
+
